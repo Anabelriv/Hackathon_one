@@ -21,7 +21,7 @@ p{
     width:100vw;
 }
 
-.title {
+.title2 {
     font-size: 54px;
     font-weight: 200;
     margin-top: 11px;
@@ -141,16 +141,4 @@ html {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
-}
-
-#threeYears {
-	background-image: url(https://unplannedpregnancy.com/wp-content/uploads/1-Year-Old.jpg);
-}
-
-#sixYears {
-	background-image: url(https://raisingchildren.net.au/__data/assets/image/0023/48056/child-development-four-to-five-years.jpg);
-}
-
-#twelveYears {
-	background-image: url(https://bestappsforkids.com/wp-content/uploads/2019/11/Group-of-ten-year-old-kids-doing-thumbs-up-e1461017769223-1.jpg);
 }
