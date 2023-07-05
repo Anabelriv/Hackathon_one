@@ -1,70 +1,3 @@
-html {
-	scroll-padding-top: 4rem;
-    
-}
-
-body {
-    background: linear-gradient(90deg, rgba(237, 236, 248, 1) 0%, rgba(215, 215, 250, 1) 69%, rgba(187, 235, 245, 1) 100%);
-}
-   
-
-#mainLogo {
-	width: auto;
-	height: 50px;
-}
-
-.navbar {
-	background: linear-gradient(90deg, rgba(237, 236, 248, 1) 0%, rgba(235, 215, 250, 1) 69%, rgb(201, 194, 238) 100%);
-}
-
-
-.topnav {
-
-	background: linear-gradient(90deg, rgba(237, 236, 248, 1) 0%, rgba(235, 215, 250, 1) 69%, rgba(197, 187, 245, 1) 100%);
-	overflow: hidden;
-	position: fixed;
-	/* Set the navbar to fixed position */
-	top: 0;
-	/* Position the navbar at the top of the page */
-	width: 90%;
-	padding-right: 5%;
-	padding-left: 5%;
-	height: 10vh;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-	float: right;
-	color: #323232;
-	text-align: center;
-	padding: 19px 16px;
-	margin: auto;
-	vertical-align: middle;
-	text-decoration: none;
-	font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-	background-color: #ddd;
-	color: black;
-}
-
-/* Create a right-aligned (split) link inside the navigation bar */
-.logo {
-	float: left;
-	display: block;
-	padding-top: 5px;
-}
-
-.picHolder {
-	background-image: url(https://img.freepik.com/premium-photo/happy-family-summer-walk_566707-2134.jpg?w=2000);
-	background-size: 100%;
-	width: 100%;
-	padding-top: 62%;
-	margin: auto;
-}
-
 
 .form { 
     overflow: hidden;
@@ -73,11 +6,10 @@ body {
 	width:600px;
 	height:600px;
     top: 150px;
-    left: 500px;
+    left: 400px;
 	border-radius:12px;
 	position:absolute;
 }
-
       
 .pick_buttons { 
 	background-color:rgb(205, 205, 205);
