@@ -1,0 +1,168 @@
+*{
+    margin:0;
+}
+
+.title {
+	text-align: center;
+}
+
+h1{
+    color: #4ebec5;
+    font-weight: 100;   
+}
+
+h2{
+    color: rgb(28, 140, 171);
+    font-weight: 80;
+}
+p, h1, h3, h2, ol{
+    margin: 40px;
+}
+p{
+    line-height:200%;
+}
+#banner{
+    width:100vw;
+}
+body {
+	background: linear-gradient(90deg, rgba(237, 236, 248, 1) 0%, rgba(215, 215, 250, 1) 69%, rgba(187, 235, 245, 1) 100%);
+}
+
+html {
+	scroll-padding-top: 4rem;
+}
+
+#mainLogo {
+	width: auto;
+	height: 50px;
+}
+
+.navbar {
+	background: linear-gradient(90deg, rgba(237, 236, 248, 1) 0%, rgba(235, 215, 250, 1) 69%, rgb(201, 194, 238) 100%);
+}
+
+.logo {
+	float: left;
+	display: block;
+	padding-top: 5px;
+}
+
+.picHolder {
+	background-image: url(https://img.freepik.com/premium-photo/happy-family-summer-walk_566707-2134.jpg?w=2000);
+	background-size: 100%;
+	width: 100%;
+	padding-top: 50%;
+	margin: auto;
+}
+
+.info {
+	width: 80%;
+	margin: auto;
+}
+
+#threeYears {
+	background-image: url(https://raisingchildren.net.au/__data/assets/image/0024/47913/toddlers-making-friends.jpg);
+}
+
+#sixYears {
+	background-image: url(https://keepconnected.searchinstitute.org/wp-content/uploads/2018/08/image-from-rawpixel-id-99764-jpeg-1024x683.jpg);
+}
+
+#twelveYears {
+	background-image: url(https://i2-prod.liverpoolecho.co.uk/incoming/article14809034.ece/ALTERNATES/s1200b/JS131122123.jpg);
+}
+
+
+
+/* grid css */
+
+  .team-grid p {
+	color:#7d8285;
+  }
+  
+  .team-grid h2 {
+	font-weight:bold;
+	color:inherit;
+  }
+  
+  @media (max-width:767px) {
+	.team-grid h2 {
+	  margin-bottom:25px;
+	  padding-top:25px;
+	  font-size:24px;
+	}
+  }
+  
+  .team-grid .intro {
+	font-size:16px;
+	max-width:500px;
+	margin:0 auto;
+  }
+  
+  .team-grid .intro p {
+	margin-bottom:0;
+  }
+  
+  .team-grid .item {
+	margin-bottom:30px;
+  }
+  
+  .team-grid .item .box {
+	text-align:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	height:280px;
+	position:relative;
+	overflow:hidden;
+	border-radius: 15px;
+	box-shadow: 6px 6px 10px rgba(128, 128, 128, 0.5);
+  }
+  
+  .team-grid .item .cover {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color:rgba(247, 129, 190, 0.621);
+	transition:opacity 0.15s ease-in;
+	opacity:0;
+	color:#fff;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.15);
+  }
+  
+  .team-grid .item:hover .cover {
+	opacity:1;
+  }
+  
+  .team-grid .item .name {
+	font-weight:bold;
+	margin-bottom:8px;
+  }
+  
+  .team-grid .item .title {
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#bbd8fb;
+	letter-spacing:2px;
+	font-size:13px;
+	margin-bottom:20px;
+  }
+  
+  .team-grid .social {
+	font-size:18px;
+  }
+  
+  .team-grid .social a {
+	color:inherit;
+	margin:0 10px;
+	display:inline-block;
+	opacity:0.7;
+  }
+  
+  .team-grid .social a:hover {
+	opacity:1;
+  }
+  
+  
