@@ -1,3 +1,24 @@
+*{
+    margin:0;
+}
+h1{
+    color: #4ebec5;
+    font-weight: 100;   
+}
+
+h2{
+    color: rgb(28, 140, 171);
+    font-weight: 80;
+}
+p, h1, h3, h2, ol{
+    margin: 40px;
+}
+p{
+    line-height:200%;
+}
+#banner{
+    width:100vw;
+}
 body {
 	background: linear-gradient(90deg, rgba(237, 236, 248, 1) 0%, rgba(215, 215, 250, 1) 69%, rgba(187, 235, 245, 1) 100%);
 }
@@ -16,37 +37,6 @@ html {
 }
 
 
-.topnav {
-
-	background: linear-gradient(90deg, rgba(237, 236, 248, 1) 0%, rgba(235, 215, 250, 1) 69%, rgba(197, 187, 245, 1) 100%);
-	overflow: hidden;
-	position: fixed;
-	/* Set the navbar to fixed position */
-	top: 0;
-	/* Position the navbar at the top of the page */
-	width: 90%;
-	padding-right: 5%;
-	padding-left: 5%;
-	height: 10vh;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-	float: right;
-	color: #323232;
-	text-align: center;
-	padding: 19px 16px;
-	margin: auto;
-	vertical-align: middle;
-	text-decoration: none;
-	font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-	background-color: #ddd;
-	color: black;
-}
 
 /* Create a right-aligned (split) link inside the navigation bar */
 .logo {
@@ -68,13 +58,7 @@ html {
 	margin: auto;
 }
 
-.info h2 {
-	text-align: center;
-}
 
-.info p {
-	text-align: center;
-}
 
 .cellHolder {
 	margin: auto;

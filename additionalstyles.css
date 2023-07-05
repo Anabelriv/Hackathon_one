@@ -10,8 +10,7 @@ h2{
     color: rgb(28, 140, 171);
     font-weight: 80;
 }
-p, h1, h3, h2, ol, li{
-    font-family:'Courier New', Courier, monospace;
+p, h1, h3, h2, ol{
     margin: 40px;
 }
 p{
