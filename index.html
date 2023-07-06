@@ -14,39 +14,49 @@
 <body>
     <header>
 
+
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg fixed-top bg-light navbar-light rounded-bottom-5">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img id="mainLogo" src="assets/png/mainLogo.png" alt="">
-                </a>
-                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-                    data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid px-sm-4 mx-lg-5 text-center">
+
+                <a class="navbar-brand" href="index.html"><img id="mainLogo" src="assets/png/mainLogo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto align-items-center">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link mx-2" href="index.html"><i class="fas fa-plus-circle pe-2"></i>Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-2" href="#about"><i class="fas fa-bell pe-2"></i>About Us</a>
+                            <a class="nav-link" href="#about">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-2" href="0-3.html"><i class="fas fa-heart pe-2"></i>0-3</a>
+                            <a class="nav-link" href="0-3.html">0-3</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-2" href="3-6.html"><i class="fas fa-heart pe-2"></i>3-6</a>
+                            <a class="nav-link" href="3-6.html">3-6</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-2" href="6-12.html"><i class="fas fa-heart pe-2"></i>6-12</a>
+                            <a class="nav-link" href="6-12.html">6-12</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-2" href="6-12.html"><i class="fas fa-heart pe-2"></i>Give Away</a>
+                            <a class="nav-link" href="Give Away.html">Give Away</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-2" href="#contact"><i class="fas fa-heart pe-2"></i>Contact</a>
+                            <a class="nav-link" href="#contact">Contact Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                Language
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">English</a></li>
+                                <li><a class="dropdown-item" href="#">Hebrew</a></li>
+                                <li><a class="dropdown-item" href="#">Russian</a></li>
+                                <li><a class="dropdown-item" href="#">Spanish</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -54,10 +64,12 @@
         </nav>
         <!-- Navbar -->
 
+
+
     </header>
     <div class="picHolder">
     </div>
-    <div class="info" id="about">
+    <div class="px-lg-5 px-md-1" id="about">
         <h2>Welcome to the George Town Council’s Kids Activity Portal.</h2>
         <p>In response to the Covid 19 - Coronavirus Pandemic, Council is very aware that entertaining and educating the
             kids at home will be challenging, in conjunction with home schooling and working from home.
@@ -70,94 +82,183 @@
             so we encourage parents to also
             navigate through the menus and activities to familiarise themselves with the content of this portal.</p>
     </div>
-    <h2 class="title">0-3 Years</h1>
-        <div class="picHolder" id="threeYears"></div>
-        <div class="cellHolder">
-            <a class="cell" href="additional-info.html#healthcare">
-                <img class="buttonImage"
-                    src="https://static.timesofisrael.com/www/uploads/2022/01/iStock-1290910702.jpg"
-                    alt="">
-            </a>
-            <a class="cell" href="additional-info.html#privategarden">
-                <img class="buttonImage"
-                    src="https://www.greatwoodfarm.co.uk/images/made/assets/images/content/Babies_posting_750_525_80_s_c1.jpg"
-                    alt="">
-            </a>
 
-
-            <a class="cell" href="additional-info.html#publicgarden">
-                <img class="buttonImage"
-                    src="https://kidsinmuseums.org.uk/wp-content/uploads/2022/10/A7403479-scaled.jpg"
-                    alt="">
-            </a>
-        </div>
-        <h2 class="title">3-6 Years</h1>
-            <div class="picHolder" id="sixYears"></div>
-            <div class="cellHolder">
-                <a class="cell" href="additional-info.html">
-                    <img class="buttonImage"
-                        src="https://static.timesofisrael.com/www/uploads/2020/05/5-13-20-israel-school-1-640x400.jpg"
-                        alt="">
-                </a>
-                <a class="cell" href="additional-info.html">
-                    <img class="buttonImage"
-                        src="https://www.socialsciencespace.com/wp-content/uploads/5847087749_12737c4530_z_opt.jpg"
-                        alt="">
-                </a>
-
-
-                <a class="cell" href="additional-info.html">
-                    <img class="buttonImage"
-                        src="https://maitlandmontessori.org/images/2019/03/05/language3-6.jpg"
-                        alt="">
-                </a>
+    <div class="picHolder" id="threeYears"></div>
+    <div class="team-grid">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">0-3 Years</h2>
             </div>
-            <h2 class="title">6-12 Years</h1>
-                <div class="picHolder" id="twelveYears"></div>
-                <div class="cellHolder">
-                    <a class="cell" href="additional-info.html">
-                        <img class="buttonImage"
-                            src="https://images.jpost.com/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_428,w_640/482187"
-                            alt="">
+            <div class="row people">
+                <div class="col-md-4 col-lg-4 item">
+                    <a href="additional-info.html#healthcare">
+                        <div class="box"
+                            style="background-image:url(https://static.timesofisrael.com/www/uploads/2022/01/iStock-1290910702.jpg)">
+                            <div class="cover">
+                                <h3 class="name">Healthcare</h3>
+                            </div>
+                        </div>
                     </a>
-                    <a class="cell" href="additional-info.html">
-                        <img class="buttonImage"
-                            src="https://www.socialsciencespace.com/wp-content/uploads/5847087749_12737c4530_z_opt.jpg"
-                            alt="">
-                    </a>
-
-
-                    <a class="cell" href="additional-info.html">
-                        <img class="buttonImage"
-                            src="https://www.israelhayom.com/wp-content/uploads/2021/10/Capture-3.jpg"
-                            alt="">
-                    </a>
-                </div>
-                <div class="cellHolder text-center">
-                    <div class="row g-2">
-                        <div class="col-12">
-                            <h2 class="title" id="contact">contact us</h2>
-                        </div>
-                    </div>
-                    <div class="row g-2">
-                        <div class="col-4">
-                            <div class="p-3">Olga Senatov</div>
-                        </div>
-                        <div class="col-4">
-                            <div class="p-3">Anabele Riviera</div>
-                        </div>
-                        <div class="col-4">
-                            <div class="p-3">Alexander Tepper</div>
-                        </div>
-
-                    </div>
 
                 </div>
+                <div class="col-md-4 col-lg-4 item">
+                    <a href="additional-info.html#privategarden">
+                        <div class="box"
+                            style="background-image:url(https://kidsinmuseums.org.uk/wp-content/uploads/2022/10/A7403479-scaled.jpg)">
+                            <div class="cover">
+                                <h3 class="name">Private Kindergardens</h3>
+
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-md-4 col-lg-4 item">
+                    <a href="additional-info.html#publicgarden">
+                        <div class="box"
+                            style="background-image:url(https://www.greatwoodfarm.co.uk/images/made/assets/images/content/Babies_posting_750_525_80_s_c1.jpg)">
+                            <div class="cover">
+                                <h3 class="name">Subsidized Daycare</h3>
+
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-                    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-                    crossorigin="anonymous"></script>
+    <div class="picHolder" id="sixYears"></div>
+    <div class="team-grid">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">3-6 Years</h2>
+            </div>
+            <div class="row people">
+                <div class="col-md-4 col-lg-4 item">
+                    <a href="additional-info.html#registsmall">
+                        <div class="box"
+                            style="background-image:url(https://static.timesofisrael.com/www/uploads/2020/05/5-13-20-israel-school-1-640x400.jpg)">
+                            <div class="cover">
+                                <h3 class="name">Registration Process</h3>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-md-4 col-lg-4 item">
+                    <a href="additional-info.html#schooltypesmall">
+                        <div class="box"
+                            style="background-image:url(https://www.socialsciencespace.com/wp-content/uploads/5847087749_12737c4530_z_opt.jpg)">
+                            <div class="cover">
+                                <h3 class="name">School Types in Israel</h3>
+
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-md-4 col-lg-4 item">
+                    <a href="additional-info.html#afterschool">
+                        <div class="box"
+                            style="background-image:url(https://maitlandmontessori.org/images/2019/03/05/language3-6.jpg)">
+                            <div class="cover">
+                                <h3 class="name">After School Activities</h3>
+
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="picHolder" id="twelveYears"></div>
+    <div class="team-grid">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">6-12 Years</h2>
+            </div>
+            <div class="row people">
+                <div class="col-md-6 col-lg-3 item">
+                    <a href="additional-info.html#schooltypebig">
+                        <div class="box"
+                            style="background-image:url(https://images.jpost.com/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_428,w_640/482187)">
+                            <div class="cover">
+                                <h3 class="name">School Type</h3>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-md-6 col-lg-3 item">
+                    <a href="additional-info.html#registbig">
+                        <div class="box"
+                            style="background-image:url(https://www.socialsciencespace.com/wp-content/uploads/5847087749_12737c4530_z_opt.jpg)">
+                            <div class="cover">
+                                <h3 class="name">Register Requirements</h3>
+
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-md-6 col-lg-3 item">
+                    <a href="additional-info.html#special">
+                        <div class="box"
+                            style="background-image:url(https://www.ndcs.org.uk/media/3515/ndcs_46377346255.jpg?anchor=center&mode=crop&width=1120&heightratio=0.5737704918032786885245901639&format=jpg&quality=80&slimmage=true&rnd=132791183980000000)">
+                            <div class="cover">
+                                <h3 class="name">Special Needs Education</h3>
+
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-md-6 col-lg-3 item">
+                    <a href="additional-info.html#homeschool">
+                        <div class="box"
+                            style="background-image:url(https://www.israelhayom.com/wp-content/uploads/2021/10/Capture-3.jpg)">
+                            <div class="cover">
+                                <h3 class="name">Home School</h3>
+
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cellHolder text-center">
+        <div class="row g-2">
+            <div class="col-12">
+                <h2 class="title" id="contact">contact us</h2>
+            </div>
+        </div>
+        <div class="row g-2">
+            <div class="col-4">
+                <div class="p-3">Olga Senatov</div>
+            </div>
+            <div class="col-4">
+                <div class="p-3">Anabele Riviera</div>
+            </div>
+            <div class="col-4">
+                <div class="p-3">Alexander Tepper</div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
