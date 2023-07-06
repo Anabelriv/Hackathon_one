@@ -51,6 +51,7 @@ html {
 	background-image: url(https://img.freepik.com/premium-photo/happy-family-summer-walk_566707-2134.jpg?w=2000);
 	background-size: 100%;
 	width: 100%;
+	max-height: 50vh;
 	padding-top: 50%;
 	margin: auto;
 }
